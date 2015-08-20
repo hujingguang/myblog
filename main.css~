@@ -1,0 +1,379 @@
+body{
+    margin: 0  auto;
+    padding:0;
+    width:100%
+}
+header{
+    background:rgba(0,0,0,0.3);
+}
+#wrapper-all{
+    background-image: url("zifu.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+nav {
+    background:transparent;
+    height: 50px;
+}
+
+#pic{
+     width:125px;
+     height:120px;
+     margin:0 auto;
+     margin-top:50px;
+     background:transparent;
+}
+.inner #mytext{
+       margin:0 auto;
+       margin-top:45px;
+       letter-spacing:4px;
+       font-size:20px;
+       font-family:华文楷体;
+} 
+#pic img{
+     width:100%;
+     height:100%;
+}
+#job{
+      margin-top:100px;
+      min-height:170px;
+      padding-top:50px;
+}
+
+
+#job p{
+    font-size:15px;
+    font-family:Times New Roman;
+}
+
+#banner{
+    background:transparent;
+    height:800px;
+    margin:0;
+}
+nav ul{
+    list-style:none;
+    margin:0;
+}
+
+
+nav ul li {
+    display:inline-block;
+    line-height:50px;
+    float:right;
+    font-size:20px;
+    margin-right:20px;
+}
+
+#banner .inner{
+    text-align: center;
+    font-width:30px;     
+    position:relative;
+    max-width:300px;
+    margin:0 auto;
+    margin-top: 143px;
+}
+
+.inner h1{
+        letter-spacing:20px;
+        color: white;
+        filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;
+        font-size: 25px;
+        font-width:10px;
+        font-family:华文楷体;
+    }
+.inner p{
+        color:white;
+        font-size: 15px;
+        filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;
+        letter-spacing: 4px;
+        font-family:Times New Roman;
+}
+
+.logo a{
+
+    float:left;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing:2px;
+    font-weight:800;
+    color:white ;
+    font-family:Times New Roman;
+}
+.logo a:hover{
+    color: #B3C2C8;
+}
+
+
+nav ul li a{
+    line-height:50px;
+    text-decoration: none;
+    display:inline-block;
+    height:50px;
+    color:white;
+    letter-spacing: 2px;
+    font-family:Times New Roman;
+}
+
+.inner div hr{
+         width:100px
+         height:10px
+         margin:0 auto;
+}
+.inner h1{
+     letter-spacing:20px;
+     color: white;
+     filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;
+     font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: #B3C2C8;
+}
+
+.text h2{
+        margin-bottom: 15px;
+        letter-spacing: 5px;
+        color:white;
+        }
+.text p{
+        font-size: 18px;
+        letter-spacing: 2px;
+        color:white}
+
+#wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#txt .hr{
+    width: 300px;
+    height: 10px;
+    margin: 0 auto;
+
+}
+.icon-groups{
+    margin-top:80px;
+}
+.icon-groups .icon{
+    display: inline-block;
+    width: 70px;
+    height:70px;
+    background: transparent;
+    margin:40px;
+    color:transparent;
+    transform:rotate(45deg)
+
+}
+#green_section{
+    margin-top: 0;
+    background:rgb(11, 112, 145);
+    text-align: center;
+    padding:100px 0;
+    color:#fff;
+      filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;
+}
+#txt h2{
+    margin-top: 0;
+    font-weight: 400;
+    letter-spacing:10px;
+    padding:20px;
+    padding-bottom: 10px
+    font-family:华文行楷;
+
+}
+#txt p{
+    padding:4px;
+    font-size: 20px;
+    font-family:华文楷体;
+}
+
+.more a{
+    text-decoration:none;
+    letter-spacing: 5px;
+}
+button{
+    border: none;
+    background:transparent;
+    color:#B097AE;
+    padding:10px;
+    margin-top: 10px;
+}
+
+div p{
+    margin-top: 20px;
+    
+}
+#banner .inner .more{
+    margin-top: 320px;
+}
+#banner .inner h1{
+    margin:0;
+}
+
+#image-section{
+    background: yellow;
+    height: 350px;
+}
+#image-section .content2{
+    margin-top:0;
+    background: rgb(47, 44, 44);
+    height: 350px;
+}
+.content2 .wrp{
+
+    width:500px;
+    height:350px;
+}
+.wrp img{
+    margin-top:0;
+    width: 100%;
+    height: 100%;
+}
+.content2 >div{
+    float:left;
+}
+.content2 .text{
+    background: transparent;
+    position: relative;
+    float:right;
+    max-width: 500px;
+    top:50px;
+    right:120px;
+    filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;
+}
+.content2:after{
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+.text h2,.text p{
+  background: none;
+    color: white;
+    font-family:华文楷体;
+}
+#fubiaoti{
+    color:white;
+    position: relative;
+    font-size:20px;
+    background:transparent;
+}
+.text h2{
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+    font-width:300;
+}
+.text p{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+
+
+
+#image-section2{
+    background: transparent;
+    height: 350px;
+}
+#image-section2 .content3{
+    margin-top:0;
+    background: rgb(65, 62, 62);
+    height: 350px;
+}
+.content3 .wrp2{
+    width:500px;
+    height:350px;
+}
+.wrp2 img{
+    margin-top:0;
+    width: 100%;
+    height: 100%;
+}
+.content3 >div{
+    float:right;
+}
+.content3 .text2{
+    background: transparent;
+    position: relative;
+    float:left;
+    max-width: 500px;
+    top:20px;
+    left:70px;
+      filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7;opacity: 0.7;
+}
+.content3:after{
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+.text2 h2,.text2 p{
+    background: none;
+    color: white;
+    font-family:华文楷体;
+}
+#fubiaoti2{
+    color:red;
+    position: relative;
+    font-size:20px;
+    background: blueviolet;
+}
+.text2 h2{
+    margin-bottom: 17px;
+    letter-spacing:3px;
+    font-width:300;
+}
+.text2 p{
+    font-size: 18px;
+    letter-spacing:2px;
+}
+
+#bottom-section{
+    margin-top:0;
+    background:deepskyblue;
+    height:400px;
+}
+#foot-bottom{
+    margin:0 auto;
+    background:transparent;
+    min-height: 150px;
+    color: #ffffff;
+    text-align:center;
+    padding:50px;
+}
+footer #contact-group{
+    margin:0 auto;
+    display: block;
+    list-style: none;
+    padding:30px;
+}
+#contact-group li{
+     display: inline-block;
+     padding:20px;
+    padding-left: 40px;
+
+}
+
+#contact-group #copy{
+    padding-bottom: 20px;
+}
+#contact-group li a {
+    height: 50px;
+    line-height: 50px;
+    text-decoration:none;
+    color:bisque;
+    
+}
+#contact-group li a:hover{
+       color:#B3C2C8;
+}
+#contact-group li{
+    line-height:50px;
+}
+
+
+
+
+
